@@ -1,6 +1,6 @@
 # Übung 8 - Observability
 
-![observability.png](observability.png)
+![observability.jpg](observability.jpg)
 
 **Hinweise:**
 
