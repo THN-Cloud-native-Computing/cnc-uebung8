@@ -10,6 +10,8 @@ Zunächst einmal können Sie dieses Repository wieder über git klonen.
 
 Kubeshark ist ein Tool zur Überwachung und Analyse von Kubernetes-Clustern: [Kubeshark](https://www.kubeshark.co/)  
 
+![kubeshark.png](kubeshark.png)
+
 Sie können es über Homebrew installieren mittels:
 
    ```bash
