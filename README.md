@@ -6,7 +6,35 @@
 
 Zunächst einmal können Sie dieses Repository wieder über git klonen.  
 
-**Aufgabe 1 - Eine Wordpress und MySQL App mit Docker Compose aufsetzen**
+**Aufgabe 1 - Deep Network Observability für Kubernetes Cluster mit Kubeshark**
+
+Kubeshark ist ein Tool zur Überwachung und Analyse von Kubernetes-Clustern: [Kubeshark](https://www.kubeshark.co/)  
+
+Sie können es über Homebrew installieren mittels:
+
+   ```bash
+brew install kubeshark
+   ```
+Starten Sie zunächst eines der Kubernetes-Deployments aus Übung 5 (z. B. Aufgabe 3).  
+
+Starten Sie nun Kubeshark mittels
+
+   ```bash
+kubeshark tap
+   ```
+
+Rufen Sie nun im Browser das Kubeshark-Dashboard auf mittels:
+
+   ```bash
+localhost:8899
+   ```
+Unter dem Punkt "Scripting" können Sie nun ein Template für eine Analyse wählen. Wählen Sie hier z.B. das Template zu "Inactive Pods" und klicken Sie auf "Save new Script". Klicken Sie anschließend auf "Activate" und wechseln dann in die Konsole (Console).  
+
+Mit folgendem Befehl können Sie anschließend die Kubeshark-Ressourcen wieder bereinigen:
+
+   ```bash
+kubeshark clean
+   ```
 
 In dieser Übung werden wir Docker Compose verwenden, um ein kleines Container-Cluster bestehend aus einer Wordpress-Instanz und einer MySQL-Instanz aufzusetzen. Hier finden Sie weitergehende Informationen zu Docker Compose: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)  
 
