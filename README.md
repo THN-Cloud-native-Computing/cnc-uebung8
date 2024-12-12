@@ -30,7 +30,11 @@ Rufen Sie nun im Browser das Kubeshark-Dashboard auf mittels:
    ```bash
 localhost:8899
    ```
+![kubeshark1.png](kubeshark1.png)
+
 Unter dem Punkt "Scripting" können Sie nun ein Template für eine Analyse wählen. Wählen Sie hier z.B. das Template zu "Inactive Pods" und klicken Sie auf "Save new Script". Klicken Sie anschließend auf "Activate" und wechseln Sie dann in die Konsole (Console).  
+
+![kubeshark2.png](kubeshark2.png)
 
 - Überprüfen Sie, welche Pods in ihrem Cluster aktiv bzw. inaktiv sind.   
 
