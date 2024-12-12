@@ -1,6 +1,6 @@
-# Übung 5 - Observability
+# Übung 8 - Observability
 
-![kubernetes.png](kubernetes.png)
+![observability.png](observability.png)
 
 **Hinweise:**
 
